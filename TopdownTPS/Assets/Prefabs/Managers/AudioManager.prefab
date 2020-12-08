@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4795294282459209079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4795294282459209076}
+  - component: {fileID: 4795294282459209077}
+  m_Layer: 0
+  m_Name: AudioListener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4795294282459209076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795294282459209079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4795294282642542172}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &4795294282459209077
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795294282459209079}
+  m_Enabled: 1
+--- !u!1 &4795294282642542175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4795294282642542172}
+  - component: {fileID: 4795294282642542171}
+  - component: {fileID: 4795294282642542170}
+  - component: {fileID: 4795294282642542173}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4795294282642542172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795294282642542175}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4795294282459209076}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4795294282642542171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795294282642542175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1cc21f4915cb149a45b9997aede6c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4795294282642542170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795294282642542175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183d200316d66154eb1d3de93e031d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainTheme: {fileID: 8300000, guid: 2e79971d78a13a347955fceec8d9531a, type: 3}
+  menuTheme: {fileID: 8300000, guid: 7c4757457a3d96b4bac58765dffb018b, type: 3}
+--- !u!114 &4795294282642542173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795294282642542175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56f7c63efe0693e45a93ab9a7d9cad60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundGroups:
+  - groupName: FullautoSFX
+    groupClips:
+    - {fileID: 8300000, guid: f1bd01acee227b341b37b7dac187c622, type: 3}
+  - groupName: Reload
+    groupClips:
+    - {fileID: 8300000, guid: 895033a6186d54243a2e38cb4173dd4e, type: 3}
+    - {fileID: 8300000, guid: 5056f8a854b0c4048ab1dafba57727b7, type: 3}
+  - groupName: BurstSFX
+    groupClips:
+    - {fileID: 8300000, guid: d2e5fcf9b843de84188669b313b48369, type: 3}
+  - groupName: SingleshotSFX
+    groupClips:
+    - {fileID: 8300000, guid: e5314537d4f50e64ca9d74ef13435519, type: 3}
+  - groupName: SwapModesSFX
+    groupClips:
+    - {fileID: 8300000, guid: 895033a6186d54243a2e38cb4173dd4e, type: 3}
+  - groupName: ReloadP1
+    groupClips:
+    - {fileID: 8300000, guid: bfdf9699f80a97d4ca399a079f067160, type: 3}
+  - groupName: ShotgunSFX
+    groupClips:
+    - {fileID: 8300000, guid: 23cd441a4c8863d49a44ad167a1cb1e3, type: 3}
+  - groupName: ShotgunReload
+    groupClips:
+    - {fileID: 8300000, guid: b00bd4cce9004234e947794e28de0fe3, type: 3}

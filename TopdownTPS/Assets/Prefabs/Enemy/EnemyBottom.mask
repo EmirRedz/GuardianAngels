@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EnemyBottom
+  m_Mask: 01000000000000000000000001000000010000000000000000000000000000000000000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: arach_armature
+    m_Weight: 0
+  - m_Path: arach_armature/root
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_front_leg.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_front_leg.L/IK_front_leg_knee.L/IK_front_leg_knee.L_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_front_leg.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_front_leg.R/IK_front_leg_knee.R/IK_front_leg_knee.R_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_hand.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_hand.L/IK_elbow.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_hand.L/IK_elbow.L/IK_elbow.L_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_hand.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_hand.R/IK_elbow.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_hand.R/IK_elbow.R/IK_elbow.R_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_rear_leg.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_rear_leg.L/IK_rear_knee.L/IK_rear_knee.L_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_rear_leg.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/IK_rear_leg.R/IK_rear_knee.R/IK_rear_knee.R_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/hip_base
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/hip_base/hip.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/hip_base/hip.L/front_leg1.L/front_leg2.L/front_leg3.L/front_leg4.L/front_leg4.L_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/hip_base/hip.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/hip_base/hip.R/front_leg1.R/front_leg2.R/front_leg3.R/front_leg4.R/front_leg4.R_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/rear_hip.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/rear_hip.L/rear_leg1.L/rear_leg2.L/rear_leg3.L/rear_leg4.L/rear_leg4.L_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/rear_hip.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/rear_hip.R/rear_leg1.R/rear_leg2.R/rear_leg3.R/rear_leg4.R/rear_leg4.R_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/bot_shoulder.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/bot_shoulder.L/bot_arm.L/bot_forearm.L/bot_hand.L/bot_hand.L_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/bot_shoulder.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/bot_shoulder.R/bot_arm.R/bot_forearm.R/bot_hand.R/bot_hand.R_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/IK_bot_hand.L/IK_bot_elbow.L/IK_bot_elbow.L_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/IK_bot_hand.R/IK_bot_elbow.R/IK_bot_elbow.R_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/neck
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/neck/head
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.L/jaw.L_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/neck/head/jaw.R/jaw.R_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_lit.L/fing_lit.L_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_mid.L/fing_mid.L_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.L/arm.L/forearm.L/hand.L/fing_th.L/fing_th.L_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_lit.R/fing_lit.R_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_mid.R/fing_mid.R_end
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R
+    m_Weight: 1
+  - m_Path: arach_armature/root/spine_0/spine_1/spine_2/shoulder.R/arm.R/forearm.R/hand.R/fing_th.R/fing_th.R_end
+    m_Weight: 1
+  - m_Path: thc6
+    m_Weight: 0
